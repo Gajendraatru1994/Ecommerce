@@ -1,0 +1,155 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: rgb(222, 203, 203);
+}
+
+.navbar ul {
+    /* border: 2px solid red; */
+    position: relative;
+    left: 20px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.navbar button {
+    padding: 10px 10px;
+}
+
+form .popup {
+    width: 60%;
+    height: 50vh;
+    background-color: cornsilk;
+    border: 2px solid black;
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.login form {
+    background: cornsilk;
+    border: 2px solid red;
+    width: 35%;
+    height: 45vh;
+    margin: auto;
+    position: relative;
+    top: 21%;
+}
+
+.login form .signup {
+    margin: 40px 10px;
+}
+
+input {
+    padding: 10px 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 6px 38px;
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+    margin-left: 164px;
+}
+
+em {
+    margin: 4px 133px;
+}
+
+.navbar-1 {
+    width: 100%;
+    height: 30vh;
+    background-color: red;
+    display: flex;
+}
+
+.table1 {
+    width: 30%;
+    height: 30vh;
+    font-size: 20px;
+    color: cyan;
+    padding: 30px 20px;
+}
+
+.table2 {
+    width: 70%;
+    height: 30vh;
+    font-size: 20px;
+    color: cyan;
+    line-height: 20px;
+    padding: 50px 20px;
+    margin-right: 50px;
+    display: flex;
+    position: relative;
+}
+
+.table2 table {
+    margin-top: 80px;
+}
+
+.table2 .but {
+    /* border: 2px solid white; */
+    padding: 20px;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.popup {
+    width: 40%;
+    height: 90vh;
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    /* visibility: hidden; */
+    display: none;
+}
+
+/* .open-popup {
+     visibility: visible; 
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: 9;
+} */
+
+.popup .clz {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 2px solid black;
+    background-color: greenyellow;
+    line-height: 30px;
+    font-size: 22px;
+    cursor: pointer;
+
+}
+
+
+
+.popup form {
+    margin: 5px 165px;
+}
+
